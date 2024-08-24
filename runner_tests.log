@@ -1,0 +1,18 @@
+2024-08-24 16:13:03,861 | WARNING | Неверный тип данных для объекта Runner: 1 is not an instance of <class 'str'>
+Traceback (most recent call last):
+  File "D:*********************\tests_12_4.py", line 26, in test_run
+    self.assertIsInstance(runner.name, str)
+  File "C:\Users\79205\AppData\Local\Programs\Python\Python312\Lib\unittest\case.py", line 1294, in assertIsInstance
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:**********************\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: 1 is not an instance of <class 'str'>
+2024-08-24 16:13:03,865 | WARNING | Неверная скорость для Runner: 0 not less than or equal to -5 
+Traceback (most recent call last):
+  File "D:************************\tests_12_4.py", line 18, in test_walk
+    self.assertLessEqual(0, runner.speed)
+  File "C:************************\case.py", line 1263, in assertLessEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:*************************\case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: 0 not less than or equal to -5
